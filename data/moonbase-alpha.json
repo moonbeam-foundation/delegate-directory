@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "address": "0x0eaf6969fd0e466b9e2716b0676b555ea36d433a",
+    "name": "0x0eaf6969fd0e466b9e2716b0676b555ea36d433a",
+    "description": "",
+    "interests": [],
+    "tracks": []
+  },
+  {
+    "address": "0x569be8d8b04538318e1722f6e375fd381d2da865",
+    "name": "0x569be8d8b04538318e1722f6e375fd381d2da865",
+    "description": "",
+    "interests": [],
+    "tracks": []
+  },
+  {
+    "address": "0xb926e36d439106090be1151347cfb916e44afe00",
+    "name": "0xb926e36d439106090be1151347cfb916e44afe00",
+    "description": "",
+    "interests": [],
+    "tracks": []
+  },
+  {
+    "address": "0x724e8ae4b1380ebbd1c017abc2b10e33f24467ab",
+    "name": "0x724e8ae4b1380ebbd1c017abc2b10e33f24467ab",
+    "description": "",
+    "interests": [],
+    "tracks": []
+  },
+  {
+    "address": "0x626bc5c9a86d4529f274ff05d237b42bbf03b5a1",
+    "name": "0x626bc5c9a86d4529f274ff05d237b42bbf03b5a1",
+    "description": "",
+    "interests": [],
+    "tracks": []
+  }
+]
