@@ -1,15 +1,9 @@
 name: validate-delegates
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
-    types:
-      - opened
-      - synchronize
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.head.sha || github.sha }}
