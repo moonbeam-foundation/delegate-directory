@@ -1,12 +1,18 @@
-name: Security Check
+name: security-check
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
-    paths:
-      - 'data/**/*.json'
+    branches:
+      - main
+    types:
+      - opened
+      - synchronize
 
 jobs:
-  security:
+  security-check:
     runs-on: ubuntu-latest
     permissions:
       contents: read

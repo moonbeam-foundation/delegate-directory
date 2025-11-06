@@ -1,4 +1,4 @@
-name: validate-delegates
+name: lint
 
 on:
   push:
@@ -16,12 +16,13 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  validate-delegates:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: oven-sh/setup-bun@v1
-      - name: Install dependencies
-        run: bun install
-      - name: Validate delegates against Zod schemas
-        run: bun scripts/validate.ts
+
+      - name: Lint JSON and YAML files
+        id: json-yaml-validate
+        uses: GrantBirki/json-yaml-validate@v2.4.0
+        with:
+          comment: "true"

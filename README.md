@@ -16,32 +16,19 @@ Each delegate entry includes:
 
 ## GitHub Workflows
 
-This repository uses GitHub Actions workflows to validate delegate JSON files.
+This repository uses GitHub Actions workflows to validate and lint delegate JSON files.
 
-## Workflows
-
-### 1. Validate Delegate JSON Files
+### 1. Validate Delegates
 
 **File:** `.github/workflows/validate-delegates.yml`
 
-Validates that:
+Validates that all fields match the Zod schema defined in `scripts/schema.ts`
 
-- JSON files have valid syntax
-- Root element is an array
-- Each delegate has required fields: `address`, `name`, `description`, `interests`, `tracks`
-- Ethereum addresses are in correct format (`0x` followed by 40 hex characters)
-- `interests` and `tracks` are arrays
-- No duplicate addresses within a file
+### 2. Lint
 
-Runs on: Pull requests and pushes to main/master that modify JSON files in `data/`
+**File:** `.github/workflows/lint.yml`
 
-### 2. Format JSON Files
-
-**File:** `.github/workflows/format-json.yml`
-
-Checks that JSON files are properly formatted (pretty-printed).
-
-Runs on: Pull requests that modify JSON files in `data/`
+Lints JSON files to ensure they are properly formatted and valid.
 
 ### 3. Security Check
 
@@ -52,11 +39,19 @@ Performs basic security checks:
 - Detects URL shorteners (bit.ly, tinyurl, etc.)
 - Checks for suspicious patterns in descriptions
 
-Runs on: Pull requests that modify JSON files in `data/`
-
 ## Local Validation
 
-You can validate files locally using `jq`:
+You can validate files locally using Bun:
+
+```bash
+# Install dependencies
+bun install
+
+# Validate all delegate files
+bun scripts/validate.ts
+```
+
+You can also use `jq` for basic JSON validation:
 
 ```bash
 # Validate JSON syntax
