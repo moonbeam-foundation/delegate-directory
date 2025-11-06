@@ -5,7 +5,6 @@
     "forum": "dev0_sik",
     "interests": [
       "build",
-      "daos",
       "defi",
       "governance",
       "identity",
@@ -29,7 +28,6 @@
     "forum": "blackk_magiik",
     "interests": [
       "governance",
-      "gaming",
       "security",
       "identity"
     ],
@@ -55,8 +53,6 @@
       "security",
       "nft",
       "governance",
-      "daos",
-      "gaming",
       "identity",
       "legal"
     ],
@@ -77,11 +73,9 @@
     "forum": "tram.papam",
     "interests": [
       "defi",
-      "gaming",
       "governance",
       "nft",
-      "security",
-      "daos"
+      "security"
     ],
     "name": "Djo",
     "tracks": [
@@ -95,9 +89,7 @@
     "forum": "turrizt",
     "interests": [
       "security",
-      "daos",
       "governance",
-      "gaming",
       "defi",
       "build",
       "grants"
@@ -155,9 +147,7 @@
     "forum": "jim_certhum",
     "interests": [
       "build",
-      "daos",
       "governance",
-      "gaming",
       "defi",
       "identity",
       "legal",
@@ -182,7 +172,6 @@
     "forum": "theteriyakidon.dot",
     "interests": [
       "governance",
-      "daos",
       "defi",
       "build"
     ],
@@ -203,12 +192,10 @@
     "ensName": "svpatrik.eth",
     "forum": "svpatrik",
     "interests": [
-      "daos",
       "governance",
       "security",
       "defi",
       "identity",
-      "gaming",
       "nft",
       "legal",
       "grants"
@@ -251,9 +238,7 @@
     "forum": "lordglmr",
     "interests": [
       "governance",
-      "daos",
       "security",
-      "gaming",
       "nft",
       "defi",
       "build"
@@ -274,7 +259,6 @@
     "forum": "jrafaelangarita",
     "interests": [
       "defi",
-      "daos",
       "governance"
     ],
     "name": "Jose.Crypto",
@@ -293,8 +277,6 @@
     "ensName": "extezymr.eth",
     "interests": [
       "build",
-      "daos",
-      "gaming",
       "defi",
       "governance",
       "identity",
@@ -319,13 +301,11 @@
     "ensName": "tonymoon.eth",
     "interests": [
       "build",
-      "daos",
       "defi",
       "identity",
       "legal",
       "security",
-      "governance",
-      "gaming"
+      "governance"
     ],
     "name": "TonyMoon",
     "tracks": [
@@ -343,13 +323,11 @@
     "forum": "johnrhodel",
     "interests": [
       "build",
-    "daos",
       "governance",
       "defi",
       "identity",
       "security",
       "legal",
-      "gaming",
       "nft"
     ],
     "name": "Parachainboy(John Rhodel)",
@@ -365,11 +343,8 @@
     "description": "StakeBaby operates collators in Moonbeam and Moonriver and the websites stakeglmr.com and stakemovr.com",
     "forum": "ioannis_dvn",
     "interests": [
-      "daos",
       "defi",
       "governance",
-      "daos",
-      "gaming",
       "legal",
       "nft",
       "identity"
@@ -390,9 +365,7 @@
     "ensName": "sukrucildirr.eth",
     "interests": [
       "build",
-      "daos",
       "governance",
-      "gaming",
       "defi",
       "grants",
       "identity",
