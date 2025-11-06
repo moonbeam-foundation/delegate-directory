@@ -5,7 +5,6 @@
     "forum": "dev0_sik",
     "interests": [
       "build",
-      "core protocol",
       "daos",
       "defi",
       "governance",
@@ -32,8 +31,7 @@
       "governance",
       "gaming",
       "security",
-      "identity",
-      "core protocol"
+      "identity"
     ],
     "name": "blackk_magiik",
     "tracks": [
@@ -57,7 +55,6 @@
       "security",
       "nft",
       "governance",
-      "core protocol",
       "daos",
       "gaming",
       "identity",
@@ -103,7 +100,6 @@
       "gaming",
       "defi",
       "build",
-      "core protocol",
       "grants"
     ],
     "name": "turrizt",
@@ -123,8 +119,7 @@
     "forum": "frenofafren",
     "interests": [
       "governance",
-      "build",
-      "core protocol"
+      "build"
     ],
     "name": "0x9258fbcddf8174c5b13264297fc8379d00d04115",
     "tracks": [
@@ -140,8 +135,7 @@
     "address": "0x84b3dcdd2ca4b0f90c0af00ff46569c206d09f66",
     "description": "FiveLayer is ran by a couple of comunity members that have been with Moonriver since its early beginning. We've voted it almost all referenda and are constantly monitoring Moonriver's activity. You can learn more about us here: https://5layer.xyz/",
     "interests": [
-      "core protocol",
-      "build",
+"build",
       "security",
       "governance"
     ],
@@ -161,7 +155,6 @@
     "forum": "jim_certhum",
     "interests": [
       "build",
-      "core protocol",
       "daos",
       "governance",
       "gaming",
@@ -214,7 +207,6 @@
       "governance",
       "security",
       "defi",
-      "core protocol",
       "identity",
       "gaming",
       "nft",
@@ -264,7 +256,6 @@
       "gaming",
       "nft",
       "defi",
-      "core protocol",
       "build"
     ],
     "name": "Lord Glimmer",
@@ -302,7 +293,6 @@
     "ensName": "extezymr.eth",
     "interests": [
       "build",
-      "core protocol",
       "daos",
       "gaming",
       "defi",
@@ -329,7 +319,7 @@
     "ensName": "tonymoon.eth",
     "interests": [
       "build",
-      "core protocol",
+      "daos",
       "defi",
       "identity",
       "legal",
@@ -353,8 +343,7 @@
     "forum": "johnrhodel",
     "interests": [
       "build",
-      "core protocol",
-      "daos",
+    "daos",
       "governance",
       "defi",
       "identity",
@@ -376,7 +365,7 @@
     "description": "StakeBaby operates collators in Moonbeam and Moonriver and the websites stakeglmr.com and stakemovr.com",
     "forum": "ioannis_dvn",
     "interests": [
-      "core protocol",
+      "daos",
       "defi",
       "governance",
       "daos",
@@ -401,7 +390,6 @@
     "ensName": "sukrucildirr.eth",
     "interests": [
       "build",
-      "core protocol",
       "daos",
       "governance",
       "gaming",
