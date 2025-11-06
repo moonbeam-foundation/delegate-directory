@@ -50,16 +50,3 @@ bun install
 # Validate all delegate files
 bun scripts/validate.ts
 ```
-
-You can also use `jq` for basic JSON validation:
-
-```bash
-# Validate JSON syntax
-jq empty data/moonbeam.json
-
-# Check structure
-jq 'type' data/moonbeam.json  # Should output "array"
-
-# Format JSON
-jq . data/moonbeam.json > formatted.json
-```
