@@ -1,0 +1,110 @@
+name: Validate Delegate JSON Files
+
+on:
+  pull_request:
+    paths:
+      - 'data/**/*.json'
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'data/**/*.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Validate JSON structure
+        run: |
+          set -e
+          echo "## Validating JSON files..."
+          
+          for file in data/*.json; do
+            echo "Checking $file..."
+            
+            # Validate JSON syntax
+            if ! jq empty "$file" 2>/dev/null; then
+              echo "❌ $file: Invalid JSON syntax"
+              exit 1
+            fi
+            
+            # Check it's an array
+            if ! jq -e 'type == "array"' "$file" > /dev/null; then
+              echo "❌ $file: Root must be an array"
+              exit 1
+            fi
+            
+            # Validate each delegate
+            count=$(jq 'length' "$file")
+            for i in $(seq 0 $((count - 1))); do
+              # Required fields
+              address=$(jq -r ".[$i].address // empty" "$file")
+              name=$(jq -r ".[$i].name // empty" "$file")
+              description=$(jq -r ".[$i].description // empty" "$file")
+              interests=$(jq -r ".[$i].interests // empty" "$file")
+              tracks=$(jq -r ".[$i].tracks // empty" "$file")
+              
+              if [ -z "$address" ]; then
+                echo "❌ $file: Delegate #$i missing 'address'"
+                exit 1
+              fi
+              
+              if [ -z "$name" ]; then
+                echo "❌ $file: Delegate #$i missing 'name'"
+                exit 1
+              fi
+              
+              if [ -z "$description" ]; then
+                echo "❌ $file: Delegate #$i missing 'description'"
+                exit 1
+              fi
+              
+              if [ "$interests" = "null" ] || [ "$interests" = "[]" ]; then
+                echo "❌ $file: Delegate #$i missing or empty 'interests'"
+                exit 1
+              fi
+              
+              if [ "$tracks" = "null" ] || [ "$tracks" = "[]" ]; then
+                echo "❌ $file: Delegate #$i missing or empty 'tracks'"
+                exit 1
+              fi
+              
+              # Validate Ethereum address format
+              if ! echo "$address" | grep -qE '^0x[a-fA-F0-9]{40}$'; then
+                echo "❌ $file: Delegate #$i has invalid address format: $address"
+                exit 1
+              fi
+              
+              # Validate interests and tracks are arrays
+              if ! jq -e ".[$i].interests | type == \"array\"" "$file" > /dev/null; then
+                echo "❌ $file: Delegate #$i 'interests' must be an array"
+                exit 1
+              fi
+              
+              if ! jq -e ".[$i].tracks | type == \"array\"" "$file" > /dev/null; then
+                echo "❌ $file: Delegate #$i 'tracks' must be an array"
+                exit 1
+              fi
+            done
+            
+            # Check for duplicate addresses
+            duplicates=$(jq -r '.[].address' "$file" | sort | uniq -d)
+            if [ -n "$duplicates" ]; then
+              echo "❌ $file: Duplicate addresses found:"
+              echo "$duplicates"
+              exit 1
+            fi
+            
+            echo "✅ $file: Valid"
+          done
+          
+          echo ""
+          echo "✅ All files validated successfully!"

@@ -1,0 +1,80 @@
+name: Security Check
+
+on:
+  pull_request:
+    paths:
+      - 'data/**/*.json'
+
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Basic security checks
+        run: |
+          set -e
+          issues=0
+          
+          for file in data/*.json; do
+            count=$(jq 'length' "$file" 2>/dev/null || echo 0)
+            
+            for i in $(seq 0 $((count - 1))); do
+              name=$(jq -r ".[${i}].name // empty" "$file")
+              desc=$(jq -r ".[${i}].description // empty" "$file")
+              website=$(jq -r ".[${i}].website // empty" "$file")
+              twitter=$(jq -r ".[${i}].twitter // empty" "$file")
+              
+              # Check for URL shorteners in website (most popular ones only)
+              if [ -n "$website" ] && echo "$website" | grep -qiE '(bit\.ly|tinyurl|goo\.gl|t\.co)'; then
+                echo "⚠️  $file: Delegate #$i${name:+ ($name)} website uses URL shortener: $website"
+                issues=1
+              fi
+              
+              # Check for HTTP links (should use HTTPS)
+              if [ -n "$website" ] && echo "$website" | grep -qiE '^http://'; then
+                echo "⚠️  $file: Delegate #$i${name:+ ($name)} website uses HTTP instead of HTTPS: $website"
+                issues=1
+              fi
+              
+              # Check for dangerous URL schemes
+              if [ -n "$website" ] && echo "$website" | grep -qiE '^(javascript|data|vbscript):'; then
+                echo "⚠️  $file: Delegate #$i${name:+ ($name)} website contains dangerous URL scheme: $website"
+                issues=1
+              fi
+              
+              # Check for XSS patterns in description (precise patterns to avoid false positives)
+              # Matches: <script, javascript:, onclick=, eval(, <iframe, <img with onerror, data:text/html
+              xss_pattern='(<script|javascript:|onclick\s*=|eval\s*\(|<iframe|<img[^>]*onerror|data:text/html)'
+              if [ -n "$desc" ] && echo "$desc" | grep -qiE "$xss_pattern"; then
+                echo "⚠️  $file: Delegate #$i${name:+ ($name)} description contains XSS pattern"
+                issues=1
+              fi
+              
+              # Check for dangerous URL schemes in description
+              if [ -n "$desc" ] && echo "$desc" | grep -qiE '(javascript|data|vbscript):'; then
+                echo "⚠️  $file: Delegate #$i${name:+ ($name)} description contains dangerous URL scheme"
+                issues=1
+              fi
+              
+              # Check for HTML injection patterns in description
+              html_pattern='(<[a-z]+[^>]*>|</[a-z]+>|&lt;script|&lt;iframe)'
+              if [ -n "$desc" ] && echo "$desc" | grep -qiE "$html_pattern"; then
+                echo "⚠️  $file: Delegate #$i${name:+ ($name)} description contains HTML tags"
+                issues=1
+              fi
+            done
+          done
+          
+          if [ $issues -eq 1 ]; then
+            echo ""
+            echo "⚠️  Security checks found potential issues. Please review carefully."
+            exit 1
+          fi
+          
+          echo "✅ No obvious security issues detected"

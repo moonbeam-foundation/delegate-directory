@@ -1,0 +1,41 @@
+name: Format JSON Files
+
+on:
+  pull_request:
+    paths:
+      - 'data/**/*.json'
+
+jobs:
+  format-check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check JSON formatting
+        run: |
+          set -e
+          issues=0
+          
+          for file in data/*.json; do
+            # Check if JSON is properly formatted (pretty-printed)
+            formatted=$(jq '.' "$file")
+            current=$(cat "$file")
+            
+            if [ "$formatted" != "$current" ]; then
+              echo "⚠️  $file: Not properly formatted"
+              issues=1
+            fi
+          done
+          
+          if [ $issues -eq 1 ]; then
+            echo ""
+            echo "💡 Tip: Run 'jq .' on the files to format them"
+            exit 1
+          fi
+          
+          echo "✅ All files are properly formatted"
