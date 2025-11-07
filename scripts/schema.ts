@@ -24,7 +24,11 @@ const DelegateInterests = z.enum([
   address: z
     .string()
     .regex(/^0x[a-fA-F0-9]{40}$/),
-  name: z.string().min(3).max(100),
+  name: z
+    .string()
+    .min(3)
+    .max(100)
+    .regex(/^[a-zA-Z0-9\s\-_'.,|]+$/),
   description: z
     .string()
     .min(10)
@@ -45,7 +49,7 @@ const DelegateInterests = z.enum([
   website: z
     .string()
     .regex(/^https?:\/\/.+/)
-    .min(10)
+    .min(12)
     .max(500)
     .optional(),
   forum: z
