@@ -24,19 +24,46 @@ const DelegateInterests = z.enum([
   address: z
     .string()
     .regex(/^0x[a-fA-F0-9]{40}$/),
-  name: z.string().min(1),
-  description: z.string().min(1),
+  name: z.string().min(1).max(100),
+  description: z
+    .string()
+    .min(10)
+    .max(2000)
+    .regex(/^[a-zA-Z0-9\s\-_'.,|]+$/)
+    .refine((val) => !/javascript:|data:|vbscript:|on\w+\s*=/i.test(val)),
   interests: z
     .array(DelegateInterests)
     .min(1),
   tracks: z
     .array(OpenGovTracks)
     .min(1),
-  twitter: z.string().optional(),
-  website: z.url().optional(),
-  forum: z.string().optional(),
-  ensName: z.string().optional(),
-  discussionThread: z.url().optional(),
+  twitter: z
+    .string()
+    .regex(/^@?[a-zA-Z0-9_]+$/)
+    .max(15)
+    .optional(),
+  website: z
+    .string()
+    .regex(/^https?:\/\/.+/)
+    .min(10)
+    .max(500)
+    .optional(),
+  forum: z
+    .string()
+    .regex(/^[a-zA-Z0-9._-]+$/)
+    .max(100)
+    .optional(),
+  ensName: z
+    .string()
+    .regex(/^[a-zA-Z0-9.-]+\.eth$/)
+    .max(100)
+    .optional(),
+  discussionThread: z
+    .string()
+    .startsWith('https://forum.moonbeam.network/')
+    .min(32)
+    .max(500)
+    .optional(),
 });
 
 const DelegatesArraySchema = z.array(DelegateSchema);

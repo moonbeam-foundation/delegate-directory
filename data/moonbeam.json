@@ -1,53 +1,8 @@
 [
   {
-    "address": "0xd87f6ec59f558ae5b1a647bfd466ea51849ea203",
-    "description": "🚀 Yo! I'm turrizt, the heartbeat of Moonbeam. vibing with the community 24/7, I’m your go-to for all things fresh in our network. I’m all about amplifying every voice - 'cause together, we rock harder. Got questions or just wanna vibe? Holla! Let's elevate Moonbeam to the stratosphere together 🌙 Hit me up on Telegram & Discord with @turrizt",
-    "forum": "turrizt",
-    "interests": [
-      "governance",
-      "grants",
-      "build",
-      "defi",
-      "security"
-    ],
-    "name": "turrizt",
-    "tracks": [
-      "root",
-      "referendum_killer",
-      "referendum_canceller",
-      "general_admin",
-      "whitelisted_caller"
-    ],
-    "twitter": "@turrizta",
-    "website": "https://twitter.com/turriztA"
-  },
-  {
-    "address": "0x7faa961ad37236372d9b5be3d3a0bf0797048eb7",
-    "description": "Hello everyone 👋 My name is Marin but you can also call me @mar1dev 🦍 I'm the co-founder of GLMR APES DAO & the CTO of The Great Escape. I'm a big Polkadot fan with a deep love for EVM-related development so Moonbeam is a natural match for me 🥹 I'm sincerely passionate about this blockchain and its ecosystem of beautiful dApps, that's why I'm now actively participating in its governance process. I'm active every day on the chain and try to educate as many people as possible about Moonbeam on my X profile. I started my web3 developer career 3 years ago on Moonriver before building since day 1 on Moonbeam. By delegating your tokens to me, you can be sure that: - I'll ensure that the interests of holders and builders are respected - I'll avoid creating useless tension by always arguing politely - I'll take part in in-depth forum discussions prior to voting - I'll always explain my votes in my delegation reports on the Forum - I'll protect our chain from treasury extractors - I'll put the chain's interests ahead of my own - I'll keep up to date with all the news - I'll vote very regularly I'm not here for the short term, you can trust me! ✅ I can be reached very easily on X/Telegram/Discord at: > @mar1dev Thanks for reading 🙌",
-    "ensName": "mar1dev.eth",
-    "interests": [
-      "build",
-      "grants",
-      "security",
-      "nft",
-      "defi",
-      "governance"
-    ],
-    "name": "marin",
-    "tracks": [
-      "root",
-      "referendum_killer",
-      "referendum_canceller",
-      "general_admin",
-      "whitelisted_caller"
-    ],
-    "website": "https://mar1.dev"
-  },
-  {
     "address": "0x6668cd5587103e30952bc54106d4a47fb478c666",
+    "name": "xcRom1.dot",
     "description": "Hello, as a Senior Ambassador for the Francophone community of the Moonbeam project for the past two years, I have a deep affection for the Polkadot ecosystem, and I am convinced of its multi-chain and multi-community future. My participation in the delegation program stems from my strong belief in the importance of governance within Moonbeam. Through your delegations, we can ensure together that Moonbeam remains firmly anchored on the path to success Feel free to contact me directly on my networks",
-    "discussionThread": "https://forum.moonbeam.network/t/delegation-report-rom1-io/1222?u=rom1.dot",
-    "forum": "rom1.dot",
     "interests": [
       "build",
       "grants",
@@ -56,7 +11,6 @@
       "governance",
       "defi"
     ],
-    "name": "xcRom1.dot",
     "tracks": [
       "root",
       "referendum_killer",
@@ -65,17 +19,62 @@
       "whitelisted_caller"
     ],
     "twitter": "@rom1_dot",
-    "website": "https://twitter.com/rom1_dot"
+    "website": "https://twitter.com/rom1_dot",
+    "forum": "rom1.dot",
+    "discussionThread": "https://forum.moonbeam.network/t/delegation-report-rom1-io/1222?u=rom1.dot"
+  },
+  {
+    "address": "0xd87f6ec59f558ae5b1a647bfd466ea51849ea203",
+    "name": "turrizt",
+    "description": "Yo I'm turrizt, the heartbeat of Moonbeam. vibing with the community 247, Im your go-to for all things fresh in our network. Im all about amplifying every voice - 'cause together, we rock harder. Got questions or just wanna vibe Holla Let's elevate Moonbeam to the stratosphere together Hit me up on Telegram Discord with turrizt",
+    "interests": [
+      "governance",
+      "grants",
+      "build",
+      "defi",
+      "security"
+    ],
+    "tracks": [
+      "root",
+      "referendum_killer",
+      "referendum_canceller",
+      "general_admin",
+      "whitelisted_caller"
+    ],
+    "twitter": "@turrizta",
+    "website": "https://twitter.com/turriztA",
+    "forum": "turrizt"
+  },
+  {
+    "address": "0x7faa961ad37236372d9b5be3d3a0bf0797048eb7",
+    "name": "marin",
+    "description": "Hello everyone My name is Marin but you can also call me mar1dev I'm the co-founder of GLMR APES DAO the CTO of The Great Escape. I'm a big Polkadot fan with a deep love for EVM-related development so Moonbeam is a natural match for me I'm sincerely passionate about this blockchain and its ecosystem of beautiful dApps, that's why I'm now actively participating in its governance process. I'm active every day on the chain and try to educate as many people as possible about Moonbeam on my X profile. I started my web3 developer career 3 years ago on Moonriver before building since day 1 on Moonbeam. By delegating your tokens to me, you can be sure that - I'll ensure that the interests of holders and builders are respected - I'll avoid creating useless tension by always arguing politely - I'll take part in in-depth forum discussions prior to voting - I'll always explain my votes in my delegation reports on the Forum - I'll protect our chain from treasury extractors - I'll put the chain's interests ahead of my own - I'll keep up to date with all the news - I'll vote very regularly I'm not here for the short term, you can trust me I can be reached very easily on XTelegramDiscord at mar1dev Thanks for reading",
+    "interests": [
+      "build",
+      "grants",
+      "security",
+      "nft",
+      "defi",
+      "governance"
+    ],
+    "tracks": [
+      "root",
+      "referendum_killer",
+      "referendum_canceller",
+      "general_admin",
+      "whitelisted_caller"
+    ],
+    "website": "https://mar1.dev",
+    "ensName": "mar1dev.eth"
   },
   {
     "address": "0x47a15e9165ee60164d0c3c84b2227989698820ad",
-    "description": "Hi, I am currently part of the Moonriver/Moonbeam OpenGov Technical Committee and also co-founding member of the Paradoxx collators on Moonriver/Moonbeam. My background over the years has/is enterprise network security and past few years started to get more into learning about the crypto industry and what it can offer to the community. I like messing around with new tech and breaking stuff. I try to stay active in the Moonbeam discord server, mainly the \"collators\" channel and try to poke around on the forum portal and ask questions to benefit the community knowledge or my own curiosity.",
-    "forum": "blackk_magiik",
+    "name": "blackk_magiik",
+    "description": "Hi, I am currently part of the MoonriverMoonbeam OpenGov Technical Committee and also co-founding member of the Paradoxx collators on MoonriverMoonbeam. My background over the years hasis enterprise network security and past few years started to get more into learning about the crypto industry and what it can offer to the community. I like messing around with new tech and breaking stuff. I try to stay active in the Moonbeam discord server, mainly the collators channel and try to poke around on the forum portal and ask questions to benefit the community knowledge or my own curiosity.",
     "interests": [
       "governance",
       "grants"
     ],
-    "name": "blackk_magiik",
     "tracks": [
       "root",
       "referendum_killer",
@@ -84,17 +83,40 @@
       "whitelisted_caller"
     ],
     "twitter": "@paradoxxllc",
-    "website": "https://paradoxxllc.com"
+    "website": "https://paradoxxllc.com",
+    "forum": "blackk_magiik"
+  },
+  {
+    "address": "0x63b378002354efe8e6f20554b85a098cdb5f4602",
+    "name": "Yaron MGG",
+    "description": "Heyy, its Yaron Moonbeam Governance Guild Treasury Council member from Berlin, Germany. Any GLMR delegations will serve me do my best to vote in the token holders best interest for a flourishing ecosystem You can find more details and all my voting decisions with reasoning in my Delegation Reports in the forum. As of Dec. 5th 2024",
+    "interests": [
+      "governance",
+      "identity",
+      "defi",
+      "grants",
+      "build",
+      "security"
+    ],
+    "tracks": [
+      "root",
+      "referendum_killer",
+      "referendum_canceller",
+      "general_admin",
+      "whitelisted_caller",
+      "fast_general_admin"
+    ],
+    "twitter": "@yaronski",
+    "forum": "_yrn"
   },
   {
     "address": "0x10023fa70ed528e4f28915bf210f6e87b057c08e",
-    "description": "Sik 🤘 Launch Collator, Treasury Councillor, Discord Mod, German Community Admin, Governance Warrior! 🫶🏻 Thanks for checking the details 🔥 I'm a DotSama native and was supporting Moonriver and Moonbeam from the get-go, collating on Moonbase Alpha testnet before Moonriver crowdloans were even a thing. I was selected as one of the Launch-Collators on Moonriver (and later on Moonbeam) and been securing the network ever since 🔐 But I'm not just \"innit for the tech\" - I want to connect the people 👥 with the tech 💻. So I became a moderator in the official Moonbeam discord and tried to help people solving their problems wherever I could. As german 🇩🇪 is my native language, I also became admin of the german Telegram group. I always wanted to help driving this project to success and kept up steady conversations with the core team. In late 2022 I became a Treasury Council Member, which I'm still super honoured to be part of - bringing in my technical knowledge to properly evaluate the proposals. Last but not least I wanted to point out that I'm not only into Moonbeam and Moonriver Governance, but also got a track record being a gov Delegate on Kusama and Polkadot, serving as Councillor for HydraDX and Basilisk, or acting as Identity Registrar on several chains. No matter what you want to talk about - you can always reach out to me 🙏",
-    "forum": "dev0_sik",
+    "name": "Sik | crifferent.de",
+    "description": "Sik Launch Collator, Treasury Councillor, Discord Mod, German Community Admin, Governance Warrior Thanks for checking the details I'm a DotSama native and was supporting Moonriver and Moonbeam from the get-go, collating on Moonbase Alpha testnet before Moonriver crowdloans were even a thing. I was selected as one of the Launch-Collators on Moonriver and later on Moonbeam and been securing the network ever since But I'm not just innit for the tech - I want to connect the people with the tech . So I became a moderator in the official Moonbeam discord and tried to help people solving their problems wherever I could. As german is my native language, I also became admin of the german Telegram group. I always wanted to help driving this project to success and kept up steady conversations with the core team. In late 2022 I became a Treasury Council Member, which I'm still super honoured to be part of - bringing in my technical knowledge to properly evaluate the proposals. Last but not least I wanted to point out that I'm not only into Moonbeam and Moonriver Governance, but also got a track record being a gov Delegate on Kusama and Polkadot, serving as Councillor for HydraDX and Basilisk, or acting as Identity Registrar on several chains. No matter what you want to talk about - you can always reach out to me",
     "interests": [
       "governance",
       "grants"
     ],
-    "name": "Sik | crifferent.de",
     "tracks": [
       "root",
       "referendum_killer",
@@ -103,55 +125,27 @@
       "whitelisted_caller"
     ],
     "twitter": "@dev0_sik",
-    "website": "https://crifferent.de"
+    "website": "https://crifferent.de",
+    "forum": "dev0_sik"
   },
   {
-    "address": "0x63b378002354efe8e6f20554b85a098cdb5f4602",
-    "description": "Heyy, it’s Yaron 👋 Moonbeam Governance Guild & Treasury Council member from Berlin, Germany. Any GLMR delegations will serve me do my best to vote in the token holders best interest & for a flourishing ecosystem 💫 You can find more details and all my voting decisions with reasoning in my Delegation Reports in the forum. As of Dec. 5th 2024",
-    "forum": "_yrn",
+    "address": "0xb969639e3cbf1e5a1d753efb2be09de4f34001f7",
+    "name": "0xb969639e3cbf1e5a1d753efb2be09de4f34001f7",
+    "description": "I am Michele, CMO at Iceberg Nodes, supporting all teammates about Staking related items on both Telegram and Discord, I am also Community admin at Moonbeam Unofficial TG. I follow Gavin Wood research development activities since 2017. I strongly believe Moonbeam can act both as engine of Polkadot eco interoperability and as the main access hub to onboard all the Innovation driven projects coming from EVM world. I am strongly interested in what is best for Moonbeam especially in view of future challengesopportunities. I trust my judgment and the continuous contact with the community to make the right decisions, especially about all the Governance related items. You can always find me on TG or Discord, always glad to support Moonbeam Teammates",
     "interests": [
       "governance",
-      "identity",
-      "defi",
-      "grants",
       "build",
-      "security"
+      "grants"
     ],
-    "name": "🛡️✨ Yaron MGG ✨🛡️",
     "tracks": [
       "root",
-      "referendum_killer",
-      "referendum_canceller",
-      "general_admin",
-      "whitelisted_caller",
-      "fast_general_admin"
-    ],
-    "twitter": "@yaronski"
-  },
-  {
-    "address": "0x715cc50a7aea3eba30b5574e7b469577e4c547f7",
-    "description": "Experienced IT and fintech professional with extensive project leadership, developed over six years in blockchain and cryptocurrency. GraphDao Advocate, ex Binance Angel, founder of Algorithm Crypto community Community leader for cumulative 150k+ members. Angel investor in 20+ WEB3.0 startups. Co-founder of Monezo NFT platform, Validator for Solana & Mina Protocol CV: https://drive.google.com/file/d/1J1wAb1H8EpLIYcT_Utt01OM5gMJOUa3t/view?usp=sharing Linkedin: https://www.linkedin.com/in/maksims-kurajevs-285076252/ My telegram blog: https://t.me/@crypto_zametki My youtube: www.youtube.com/@Algorithm.Crypto Side project (Monezo.xyz) : https://deploy-preview-26--monezo-v2.netlify.app/",
-    "forum": "maxmut96",
-    "interests": [
-      "defi",
-      "build",
-      "nft"
-    ],
-    "name": "Maksims | Algorithm Crypto",
-    "tracks": [
-      "root",
-      "referendum_killer",
-      "referendum_canceller",
-      "general_admin",
-      "whitelisted_caller",
-      "fast_general_admin"
-    ],
-    "website": "https://deploy-preview-26--monezo-v2.netlify.app/"
+      "general_admin"
+    ]
   },
   {
     "address": "0xfd5882cc08b7a7d51daa7f5a7e74aaeceeeef63d",
-    "description": "I'm Jim, Founder of CertHum. I've been a part of the community since the launch of Moonbase Alpha, and CertHum runs collators and RPC nodes on all three Moonbeam Networks. I'm also a non-Foundation community member of the Moonbeam Community Grants Committee, and a member of the Moonbeam and Moonbeam Technical Committees. I’m participating in the delegation program because I believe the future on Moonbeam is bright, and with you delegations we can make sure it stays on the right path.",
-    "forum": "jim_certhum",
+    "name": "Jim-CertHum",
+    "description": "I'm Jim, Founder of CertHum. I've been a part of the community since the launch of Moonbase Alpha, and CertHum runs collators and RPC nodes on all three Moonbeam Networks. I'm also a non-Foundation community member of the Moonbeam Community Grants Committee, and a member of the Moonbeam and Moonbeam Technical Committees. Im participating in the delegation program because I believe the future on Moonbeam is bright, and with you delegations we can make sure it stays on the right path.",
     "interests": [
       "build",
       "defi",
@@ -162,7 +156,6 @@
       "nft",
       "security"
     ],
-    "name": "Jim-CertHum",
     "tracks": [
       "root",
       "referendum_killer",
@@ -171,13 +164,46 @@
       "whitelisted_caller"
     ],
     "twitter": "@CertHum",
-    "website": "https://certhum.com"
+    "website": "https://certhum.com",
+    "forum": "jim_certhum"
+  },
+  {
+    "address": "0xa495c2d6175f99ed94cc1d89b1b9c181562a525d",
+    "name": "Jose.Crypto",
+    "description": "Hi, Im Jose, and Ive been a member of the community since before its launch, volunteering to help out in the Spanish chats, which gave me entry as an ambassador for the project, and Im currently the Head Ambassador of the Spanish community, as well as Mod and recently as part of the Treasury Council. So I am aware of all the recent changes and very attentive on the chats, I will try to participate in the proposals with concrete feedback and questions that could interest more than one in the community. You can find me on twitter and Telegram like Jrafaelangarita",
+    "interests": [
+      "governance",
+      "grants"
+    ],
+    "tracks": [
+      "root",
+      "referendum_killer",
+      "referendum_canceller",
+      "general_admin",
+      "whitelisted_caller"
+    ],
+    "twitter": "@J0seRafael12",
+    "forum": "jose.crypto"
+  },
+  {
+    "address": "0xc90d3327e2579a71b26e85f9407260d9997cf435",
+    "name": "Princess Anna",
+    "description": "Moonbeam Senior Ambassador Instagram Community Team Leader Follow Moonbeam on Instagram httpinstagram.commoonbeam_network",
+    "interests": [
+      "defi",
+      "governance",
+      "nft"
+    ],
+    "tracks": [
+      "root",
+      "general_admin"
+    ],
+    "website": "http://instagram.com/moonbeam_network"
   },
   {
     "address": "0xb4fc9a7b8be45c14b6a7364667069544ea4cbde0",
+    "name": "Djo",
     "description": "Hey, everybody. This is Djo. Joined moonbeam a couple years ago. All this time I have been contributing my skills and abilities to its development. I am honored to be a part of it. Glad to help others join us and get things sorted out",
-    "ensName": "tramadol65.eth",
-    "forum": "djo.ny",
     "interests": [
       "build",
       "defi",
@@ -185,115 +211,24 @@
       "nft",
       "security"
     ],
-    "name": "Djo",
     "tracks": [
       "root",
       "whitelisted_caller"
     ],
-    "website": "https://twitter.com/ser_gka"
-  },
-  {
-    "address": "0xb969639e3cbf1e5a1d753efb2be09de4f34001f7",
-    "description": "I am Michele, CMO at Iceberg Nodes, supporting all teammates about Staking related items on both Telegram and Discord, I am also Community admin at Moonbeam Unofficial TG. I follow Gavin Wood research & development activities since 2017. I strongly believe Moonbeam can act both as engine of Polkadot eco interoperability and as the main access hub to onboard all the Innovation driven projects coming from EVM world. I am strongly interested in what is best for Moonbeam especially in view of future challenges/opportunities. I trust my judgment and the continuous contact with the community to make the right decisions, especially about all the Governance related items. You can always find me on TG or Discord, always glad to support Moonbeam Teammates!!!",
-    "interests": [
-      "governance",
-      "build",
-      "grants"
-    ],
-    "name": "0xb969639e3cbf1e5a1d753efb2be09de4f34001f7",
-    "tracks": [
-      "root",
-      "general_admin"
-    ]
-  },
-  {
-    "address": "0xa495c2d6175f99ed94cc1d89b1b9c181562a525d",
-    "description": "Hi, I’m Jose, and I’ve been a member of the community since before its launch, volunteering to help out in the Spanish chats, which gave me entry as an ambassador for the project, and I’m currently the Head Ambassador of the Spanish community, as well as Mod and recently as part of the Treasury Council. So I am aware of all the recent changes and very attentive on the chats, I will try to participate in the proposals with concrete feedback and questions that could interest more than one in the community. You can find me on twitter and Telegram like @Jrafaelangarita",
-    "forum": "jose.crypto",
-    "interests": [
-      "governance",
-      "grants"
-    ],
-    "name": "Jose.Crypto",
-    "tracks": [
-      "root",
-      "referendum_killer",
-      "referendum_canceller",
-      "general_admin",
-      "whitelisted_caller"
-    ],
-    "twitter": "@J0seRafael12"
-  },
-  {
-    "address": "0xc90d3327e2579a71b26e85f9407260d9997cf435",
-    "description": "Moonbeam Senior Ambassador & Instagram Community Team Leader Follow Moonbeam on Instagram: http://instagram.com/moonbeam_network",
-    "interests": [
-      "defi",
-      "governance",
-      "nft"
-    ],
-    "name": "Princess Anna",
-    "tracks": [
-      "root",
-      "general_admin"
-    ],
-    "website": "https://instagram.com/moonbeam_network"
-  },
-  {
-    "address": "0x76322f53b91cb8849dfb2007ed862940934b3520",
-    "description": "Hello, members of the Moonbeam community! Today, I want to share my passion for our project and my commitment to helping it grow and develop. I believe in being a responsible delegate who will represent our community's interests and contribute to making Moonbeam even better. Some of you know me as a telegram chat moderator, my nickname is SvPatrik. I joined the project more than two years ago and during this time my passion and faith in the project has only increased. As a community delegate, I promise: I will always be open, honest, and fair in my decision-making process. It's important to me that our community can trust that I will do what's right for all of us. I understand the importance of staying up-to-date with what's happening in our network. I will take the time to research and understand proposals before making any voting decisions, so that I can make informed choices that benefit our community. I believe that everyone's voice should be heard. As a delegate, I will actively listen to your thoughts, concerns, and ideas. I want to create an inclusive environment where we can work together to make Moonbeam the best it can be. I care deeply about the different needs and interests within our community. Whether you're a developer, a stakeholder, or a user, I will make sure your interests are represented and fought for in our decision-making process. I believe in the future of Moonbeam. As a delegate, I will make choices that support our long-term success. This includes prioritizing security, wisely allocating resources, and supporting the growth of developers and projects on our network. Conclusion: Together, we can shape the future of Moonbeam. As a responsible delegate, I am here to support you, promote growth, and create a sustainable ecosystem. Let's work together, build partnerships, and make Moonbeam even better. Your trust and support mean the world to me. Thank you for your attention!",
-    "ensName": "svpatrik.eth",
-    "interests": [
-      "defi",
-      "governance",
-      "grants",
-      "legal",
-      "identity",
-      "nft"
-    ],
-    "name": "svpatrik",
-    "tracks": [
-      "root",
-      "referendum_killer",
-      "referendum_canceller",
-      "general_admin",
-      "whitelisted_caller"
-    ],
-    "website": "https://twitter.com/taichka2005"
-  },
-  {
-    "address": "0xd70a0b9e5f1717d2bb09a4aacea03fe4630133e9",
-    "description": "Hello 👋 I am the Senior Ambassador of the most beloved Moonbeam/Moonriver project, which will forever remain in my heart. From the very first days, I was involved full-time and helped the community, I also participated in the technical part of the test network, was engaged in video/audio editing and sound processing for a very long time, duplicated the translation as CEO of Derek for our YouTube channel for the Ru community. I am in love with decentralization and help development! :heart_hands: All the necessary information is provided on the portfolio website: https://vagif.pro",
-    "ensName": "vagif.eth",
-    "forum": "vagif",
-    "interests": [
-      "defi",
-      "build",
-      "governance",
-      "nft",
-      "security",
-      "grants"
-    ],
-    "name": "Vagif",
-    "tracks": [
-      "root",
-      "referendum_killer",
-      "referendum_canceller",
-      "general_admin",
-      "whitelisted_caller"
-    ],
-    "website": "https://vagif.pro"
+    "website": "https://twitter.com/ser_gka",
+    "ensName": "tramadol65.eth",
+    "forum": "djo.ny"
   },
   {
     "address": "0x0ffe5a8183097a8bdc00c8ff26afeaa6c27edeff",
-    "description": "Hello everyone. I have been part of the Moonbeam Network program for longer than 2 years, dedicating all my passion to the multichain idea and community growth and development I am the Head of Ambassaodrs of the Moonbeam Network Ambassador program and the truly believer that \"The Future is Multi-Chain\"",
+    "name": "KeithBM",
+    "description": "Hello everyone. I have been part of the Moonbeam Network program for longer than 2 years, dedicating all my passion to the multichain idea and community growth and development I am the Head of Ambassaodrs of the Moonbeam Network Ambassador program and the truly believer that The Future is Multi-Chain",
     "interests": [
       "defi",
       "governance",
       "security",
       "identity"
     ],
-    "name": "KeithBM",
     "tracks": [
       "root",
       "general_admin",
@@ -302,9 +237,142 @@
     "website": "https://twitter.com/KeithbmBG"
   },
   {
+    "address": "0x76322f53b91cb8849dfb2007ed862940934b3520",
+    "name": "svpatrik",
+    "description": "Hello, members of the Moonbeam community Today, I want to share my passion for our project and my commitment to helping it grow and develop. I believe in being a responsible delegate who will represent our community's interests and contribute to making Moonbeam even better. Some of you know me as a telegram chat moderator, my nickname is SvPatrik. I joined the project more than two years ago and during this time my passion and faith in the project has only increased. As a community delegate, I promise I will always be open, honest, and fair in my decision-making process. It's important to me that our community can trust that I will do what's right for all of us. I understand the importance of staying up-to-date with what's happening in our network. I will take the time to research and understand proposals before making any voting decisions, so that I can make informed choices that benefit our community. I believe that everyone's voice should be heard. As a delegate, I will actively listen to your thoughts, concerns, and ideas. I want to create an inclusive environment where we can work together to make Moonbeam the best it can be. I care deeply about the different needs and interests within our community. Whether you're a developer, a stakeholder, or a user, I will make sure your interests are represented and fought for in our decision-making process. I believe in the future of Moonbeam. As a delegate, I will make choices that support our long-term success. This includes prioritizing security, wisely allocating resources, and supporting the growth of developers and projects on our network. Conclusion Together, we can shape the future of Moonbeam. As a responsible delegate, I am here to support you, promote growth, and create a sustainable ecosystem. Let's work together, build partnerships, and make Moonbeam even better. Your trust and support mean the world to me. Thank you for your attention",
+    "interests": [
+      "defi",
+      "governance",
+      "grants",
+      "legal",
+      "identity",
+      "nft"
+    ],
+    "tracks": [
+      "root",
+      "referendum_killer",
+      "referendum_canceller",
+      "general_admin",
+      "whitelisted_caller"
+    ],
+    "website": "https://twitter.com/taichka2005",
+    "ensName": "svpatrik.eth"
+  },
+  {
+    "address": "0x715cc50a7aea3eba30b5574e7b469577e4c547f7",
+    "name": "Maksims | Algorithm Crypto",
+    "description": "Experienced IT and fintech professional with extensive project leadership, developed over six years in blockchain and cryptocurrency. GraphDao Advocate, ex Binance Angel, founder of Algorithm Crypto community Community leader for cumulative 150k members. Angel investor in 20 WEB3.0 startups. Co-founder of Monezo NFT platform, Validator for Solana Mina Protocol CV httpsdrive.google.comfiled1J1wAb1H8EpLIYcT_Utt01OM5gMJOUa3tviewuspsharing Linkedin httpswww.linkedin.cominmaksims-kurajevs-285076252 My telegram blog httpst.mecrypto_zametki My youtube www.youtube.comAlgorithm.Crypto Side project Monezo.xyz httpsdeploy-preview-26--monezo-v2.netlify.app",
+    "interests": [
+      "defi",
+      "build",
+      "nft"
+    ],
+    "tracks": [
+      "root",
+      "referendum_killer",
+      "referendum_canceller",
+      "general_admin",
+      "whitelisted_caller",
+      "fast_general_admin"
+    ],
+    "website": "https://deploy-preview-26--monezo-v2.netlify.app/",
+    "forum": "maxmut96"
+  },
+  {
+    "address": "0xd70a0b9e5f1717d2bb09a4aacea03fe4630133e9",
+    "name": "Vagif",
+    "description": "Hello I am the Senior Ambassador of the most beloved MoonbeamMoonriver project, which will forever remain in my heart. From the very first days, I was involved full-time and helped the community, I also participated in the technical part of the test network, was engaged in videoaudio editing and sound processing for a very long time, duplicated the translation as CEO of Derek for our YouTube channel for the Ru community. I am in love with decentralization and help development heart_hands All the necessary information is provided on the portfolio website httpsvagif.pro",
+    "interests": [
+      "defi",
+      "build",
+      "governance",
+      "nft",
+      "security",
+      "grants"
+    ],
+    "tracks": [
+      "root",
+      "referendum_killer",
+      "referendum_canceller",
+      "general_admin",
+      "whitelisted_caller"
+    ],
+    "website": "https://vagif.pro",
+    "ensName": "vagif.eth",
+    "forum": "vagif"
+  },
+  {
+    "address": "0x79c1b604f845a66ab3552d8bc6372169b63d8642",
+    "name": "Xenia",
+    "description": "Hello I'm Xenia, a passionate advocate for the transformative potential of Web3. With a strong legal background from my Web2 days, I've spent the past four years actively engaged in the crypto space. As a full-time ambassador, influencer, and community participant, I've had the privilege of working with exciting projects like Initia, Taiko, Wormhole, Sui, and many more. Recently, my focus has shifted to the Polkadot ecosystem, and Moonbeam has truly captured my interest. Why Moonbeam In my view, Moonbeam is poised to be a game-changer for Polkadot and the broader Web3 landscape. By enabling developer-friendly smart contracts and familiar programming languages, Moonbeam opens the door for a wider range of participants to engage with the power of dApps. I'm eager to contribute to this groundbreaking project and become an active member of the Moonbeam community. I'm excited to leverage my experience and enthusiasm to make a positive impact.",
+    "interests": [
+      "defi",
+      "build",
+      "governance",
+      "grants",
+      "legal"
+    ],
+    "tracks": [
+      "referendum_canceller",
+      "general_admin"
+    ],
+    "forum": "xenia_kk11"
+  },
+  {
+    "address": "0x4694006a0037856e57636290201eab0c3727cbe7",
+    "name": "Freakypimentos",
+    "description": "part of Moonbeam Family.",
+    "interests": [
+      "identity",
+      "nft",
+      "security",
+      "governance",
+      "defi"
+    ],
+    "tracks": [
+      "root",
+      "referendum_canceller",
+      "general_admin"
+    ],
+    "ensName": "freakypimentos.eth",
+    "forum": "freakypimentos"
+  },
+  {
+    "address": "0x6bd47b65ed457b6a6ee69bd1c42fee4e7d1ec07d",
+    "name": "MetaPras",
+    "description": "Hi, Im Georgi from Bulgaria",
+    "interests": [
+      "defi",
+      "governance"
+    ],
+    "tracks": [
+      "root",
+      "whitelisted_caller"
+    ]
+  },
+  {
+    "address": "0x41d4b02022165fcd47b4e0f64aa41eef9ef1da38",
+    "name": "ExtraCoin",
+    "description": "ExtraCoin dedicated to voting in the interests of the majority small and the prosperity of the network Moonbeam ambassador Germany two times MB Treasury Council member elect.",
+    "interests": [
+      "security",
+      "grants",
+      "defi"
+    ],
+    "tracks": [
+      "root",
+      "referendum_killer",
+      "referendum_canceller",
+      "general_admin",
+      "whitelisted_caller"
+    ],
+    "website": "https://twitter.com/yaronski",
+    "discussionThread": "https://forum.moonbeam.network/u/_yrn/summary"
+  },
+  {
     "address": "0x195ff37fc18ac6c8e0db763c402a9c641b092364",
-    "description": "Moonbeam is one of the most influential networks in the blockchain community, offering customized services to users. We can talk endlessly about the advantage and competitiveness of the project. As an ambassador, I am not only interested in the technology, which Moonbeam has in abundance, but also in the community, which is growing day by day. I am confident in the strength of our team, we will achieve great success in the crypto industry!",
-    "forum": "bellissimacuore",
+    "name": "Anomalia",
+    "description": "Moonbeam is one of the most influential networks in the blockchain community, offering customized services to users. We can talk endlessly about the advantage and competitiveness of the project. As an ambassador, I am not only interested in the technology, which Moonbeam has in abundance, but also in the community, which is growing day by day. I am confident in the strength of our team, we will achieve great success in the crypto industry",
     "interests": [
       "build",
       "defi",
@@ -315,7 +383,6 @@
       "nft",
       "security"
     ],
-    "name": "Anomalia",
     "tracks": [
       "root",
       "referendum_killer",
@@ -323,182 +390,115 @@
       "general_admin",
       "whitelisted_caller"
     ],
-    "website": "https://twitter.com/Anomaliiq"
+    "website": "https://twitter.com/Anomaliiq",
+    "forum": "bellissimacuore"
   },
   {
-    "address": "0x79c1b604f845a66ab3552d8bc6372169b63d8642",
-    "description": "Hello! I'm Xenia, a passionate advocate for the transformative potential of Web3. With a strong legal background (from my Web2 days!), I've spent the past four years actively engaged in the crypto space. As a full-time ambassador, influencer, and community participant, I've had the privilege of working with exciting projects like Initia, Taiko, Wormhole, Sui, and many more. Recently, my focus has shifted to the Polkadot ecosystem, and Moonbeam has truly captured my interest. Why Moonbeam? In my view, Moonbeam is poised to be a game-changer for Polkadot and the broader Web3 landscape. By enabling developer-friendly smart contracts and familiar programming languages, Moonbeam opens the door for a wider range of participants to engage with the power of dApps. I'm eager to contribute to this groundbreaking project and become an active member of the Moonbeam community. I'm excited to leverage my experience and enthusiasm to make a positive impact.",
-    "forum": "xenia_kk11",
+    "address": "0x75d94db4af1519862a0d5e1f9ef818866f1fbc41",
+    "name": "GameOver",
+    "description": "Hi, I'm Alexei, a Web3 Worker available 247. I'm a moderator for the Moonbeam Reddit. If you have any questions, just DM me. Reach out to me on Telegram Game0verMachine.",
     "interests": [
       "defi",
-      "build",
-      "governance",
-      "grants",
-      "legal"
-    ],
-    "name": "Xenia",
-    "tracks": [
-      "referendum_canceller",
-      "general_admin"
-    ]
-  },
-  {
-    "address": "0x4694006a0037856e57636290201eab0c3727cbe7",
-    "description": "part of Moonbeam Family.",
-    "ensName": "freakypimentos.eth",
-    "forum": "freakypimentos",
-    "interests": [
-      "identity",
       "nft",
       "security",
+      "build",
       "governance",
-      "defi"
+      "grants"
     ],
-    "name": "Freakypimentos",
     "tracks": [
       "root",
+      "referendum_killer",
       "referendum_canceller",
-      "general_admin"
-    ]
+      "whitelisted_caller"
+    ],
+    "website": "https://cugutalex.wixsite.com/amb-gameover",
+    "ensName": "gameovermachine.eth"
   },
   {
-    "address": "0x6bd47b65ed457b6a6ee69bd1c42fee4e7d1ec07d",
-    "description": "Hi, I’m Georgi from Bulgaria",
+    "address": "0xcd98aa3437f953259e6983ebb8fe47b5f50317b4",
+    "name": "ExtezyMr",
+    "description": "Hi I am a Moonbeam enthusiast since the beginning of 2021, an early Ambassador, and Senor Ambassador, I believe in the active development of Moonbeam Moonriver especially as the leading networks on Polkadot Kusama ecosystems. Organized many eventschallenges and co-organized UA community an contact me here ExtezyMr",
     "interests": [
+      "build",
       "defi",
-      "governance"
+      "governance",
+      "legal",
+      "nft",
+      "identity",
+      "grants",
+      "security"
     ],
-    "name": "MetaPras",
     "tracks": [
       "root",
+      "referendum_killer",
+      "referendum_canceller",
+      "general_admin",
       "whitelisted_caller"
-    ]
+    ],
+    "website": "https://link3.to/extezymr",
+    "ensName": "extezymr.eth"
+  },
+  {
+    "address": "0xa7476ec14cd663c742d527113638c77a1631cc89",
+    "name": "lesnik | UTSA",
+    "description": "Hey hey I'm | a senior ambassador for Moonbeam If you have been familiar with Moonbeam Moonriver for a long time, then most likely we have already met. Constant help to the community, technical articles and boundless faith in decentralization - only forward",
+    "interests": [
+      "build",
+      "identity",
+      "security",
+      "defi",
+      "governance",
+      "legal"
+    ],
+    "tracks": [
+      "root",
+      "referendum_killer",
+      "referendum_canceller",
+      "general_admin",
+      "whitelisted_caller"
+    ],
+    "website": "https://teletype.in/@lesnik13utsa",
+    "forum": "lesnik_utsa"
+  },
+  {
+    "address": "0x609d12eaddfd805de8e7b75d124c950f073dde27",
+    "name": "w124eth aka Benzi",
+    "description": "Hi all I'm w124eth aka Benzi I am Moonbeam senior ambassador Since the begining with Moonbeam and Moonriver I help our community from day one I love to create a graphic content and not only it Maybe you may have seen my stickers Feel free dm me on Telegram - w124eth",
+    "interests": [
+      "build",
+      "defi",
+      "governance",
+      "nft",
+      "security",
+      "grants"
+    ],
+    "tracks": [
+      "root",
+      "referendum_killer",
+      "referendum_canceller",
+      "general_admin",
+      "whitelisted_caller"
+    ],
+    "website": "https://twitter.com/numberswetrust",
+    "forum": "w124eth"
   },
   {
     "address": "0x7ce57049de6d970a96e7e2e0b895207634243212",
+    "name": "TonyMoon",
     "description": "I have been a Moonbeam Ambassador since the beginning, I have tested both Moonbeam and Moonriver parachain networks. I am a Guild Leader in SubQuery and an Ambassador in Manta Network",
-    "ensName": "tonymoon.eth",
-    "forum": "tonymoon",
     "interests": [
       "build",
       "defi",
       "nft",
       "identity"
     ],
-    "name": "TonyMoon",
     "tracks": [
       "root",
       "general_admin",
       "whitelisted_caller"
     ],
-    "website": "https://twitter.com/MaestroIt8"
-  },
-  {
-    "address": "0xa7476ec14cd663c742d527113638c77a1631cc89",
-    "description": "Hey hey!!! I'm 𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀 a senior ambassador for Moonbeam If you have been familiar with Moonbeam & Moonriver for a long time, then most likely we have already met. Constant help to the community, technical articles and boundless faith in decentralization - only forward🚀🚀🚀",
-    "forum": "lesnik_utsa",
-    "interests": [
-      "build",
-      "identity",
-      "security",
-      "defi",
-      "governance",
-      "legal"
-    ],
-    "name": "lesnik | UTSA",
-    "tracks": [
-      "root",
-      "referendum_killer",
-      "referendum_canceller",
-      "general_admin",
-      "whitelisted_caller"
-    ],
-    "website": "https://teletype.in/@lesnik13utsa"
-  },
-  {
-    "address": "0xcd98aa3437f953259e6983ebb8fe47b5f50317b4",
-    "description": "Hi👋 I am a Moonbeam enthusiast since the beginning of 2021, an early Ambassador, and Senor Ambassador, I believe in the active development of Moonbeam & Moonriver especially as the leading networks on Polkadot & Kusama ecosystems. Organized many events/challenges and co-organized UA community Сan contact me here @ExtezyMr",
-    "ensName": "extezymr.eth",
-    "interests": [
-      "build",
-      "defi",
-      "governance",
-      "legal",
-      "nft",
-      "identity",
-      "grants",
-      "security"
-    ],
-    "name": "ExtezyMr",
-    "tracks": [
-      "root",
-      "referendum_killer",
-      "referendum_canceller",
-      "general_admin",
-      "whitelisted_caller"
-    ],
-    "website": "https://link3.to/extezymr"
-  },
-  {
-    "address": "0x41d4b02022165fcd47b4e0f64aa41eef9ef1da38",
-    "description": "ExtraCoin dedicated to voting in the interests of the majority small 🐟 and the prosperity of the network! Moonbeam ambassador Germany && two times MB Treasury Council member elect.",
-    "discussionThread": "https://forum.moonbeam.network/u/_yrn/summary",
-    "interests": [
-      "security",
-      "grants",
-      "defi"
-    ],
-    "name": "ExtraCoin",
-    "tracks": [
-      "root",
-      "referendum_killer",
-      "referendum_canceller",
-      "general_admin",
-      "whitelisted_caller"
-    ],
-    "website": "https://twitter.com/yaronski"
-  },
-  {
-    "address": "0x609d12eaddfd805de8e7b75d124c950f073dde27",
-    "description": "Hi all I'm w124eth aka Benzi I am Moonbeam senior ambassador Since the begining with Moonbeam and Moonriver ! I help our community from day one ! I love to create a graphic content and not only it ! Maybe you may have seen my stickers ! Feel free dm me on Telegram - @w124eth",
-    "forum": "w124eth",
-    "interests": [
-      "build",
-      "defi",
-      "governance",
-      "nft",
-      "security",
-      "grants"
-    ],
-    "name": "w124eth aka Benzi",
-    "tracks": [
-      "root",
-      "referendum_killer",
-      "referendum_canceller",
-      "general_admin",
-      "whitelisted_caller"
-    ],
-    "website": "https://twitter.com/numberswetrust"
-  },
-  {
-    "address": "0x75d94db4af1519862a0d5e1f9ef818866f1fbc41",
-    "description": "Hi, I'm Alexei, a Web3 Worker available 24/7. I'm a moderator for the Moonbeam Reddit. If you have any questions, just DM me. Reach out to me on Telegram @Game0verMachine.",
-    "ensName": "gameovermachine.eth",
-    "interests": [
-      "defi",
-      "nft",
-      "security",
-      "build",
-      "governance",
-      "grants"
-    ],
-    "name": "GameOver",
-    "tracks": [
-      "root",
-      "referendum_killer",
-      "referendum_canceller",
-      "whitelisted_caller"
-    ],
-    "website": "https://cugutalex.wixsite.com/amb-gameover"
+    "website": "https://twitter.com/MaestroIt8",
+    "ensName": "tonymoon.eth",
+    "forum": "tonymoon"
   }
 ]
