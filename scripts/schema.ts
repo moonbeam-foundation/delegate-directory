@@ -24,7 +24,7 @@ const DelegateInterests = z.enum([
   address: z
     .string()
     .regex(/^0x[a-fA-F0-9]{40}$/),
-  name: z.string().min(1).max(100),
+  name: z.string().min(3).max(100),
   description: z
     .string()
     .min(10)
