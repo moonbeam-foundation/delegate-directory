@@ -48,7 +48,7 @@ const DelegateInterests = z.enum([
     .optional(),
   website: z
     .string()
-    .regex(/^https?:\/\/.+/)
+    .regex(/^https:\/\/.+/)
     .min(12)
     .max(500)
     .optional(),
