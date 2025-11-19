@@ -140,7 +140,8 @@
     "tracks": [
       "root",
       "general_admin"
-    ]
+    ],
+    "forum": "michele_amurri"
   },
   {
     "address": "0xfd5882cc08b7a7d51daa7f5a7e74aaeceeeef63d",
@@ -370,6 +371,69 @@
     "discussionThread": "https://forum.moonbeam.network/u/_yrn/summary"
   },
   {
+    "address": "0x609d12eaddfd805de8e7b75d124c950f073dde27",
+    "name": "w124eth aka Benzi",
+    "description": "Hi all I'm w124eth aka Benzi I am Moonbeam senior ambassador Since the begining with Moonbeam and Moonriver I help our community from day one I love to create a graphic content and not only it Maybe you may have seen my stickers Feel free dm me on Telegram - w124eth",
+    "interests": [
+      "build",
+      "defi",
+      "governance",
+      "nft",
+      "security",
+      "grants"
+    ],
+    "tracks": [
+      "root",
+      "referendum_killer",
+      "referendum_canceller",
+      "general_admin",
+      "whitelisted_caller"
+    ],
+    "website": "https://twitter.com/numberswetrust",
+    "forum": "w124eth"
+  },
+  {
+    "address": "0x7ce57049de6d970a96e7e2e0b895207634243212",
+    "name": "TonyMoon",
+    "description": "I have been a Moonbeam Ambassador since the beginning, I have tested both Moonbeam and Moonriver parachain networks. I am a Guild Leader in SubQuery and an Ambassador in Manta Network",
+    "interests": [
+      "build",
+      "defi",
+      "nft",
+      "identity"
+    ],
+    "tracks": [
+      "root",
+      "general_admin",
+      "whitelisted_caller"
+    ],
+    "website": "https://twitter.com/MaestroIt8",
+    "ensName": "tonymoon.eth",
+    "forum": "tonymoon"
+  },
+  {
+    "address": "0xa7476ec14cd663c742d527113638c77a1631cc89",
+    "name": "lesnik | UTSA",
+    "description": "Hey hey I'm | a senior ambassador for Moonbeam If you have been familiar with Moonbeam Moonriver for a long time, then most likely we have already met. Constant help to the community, technical articles and boundless faith in decentralization - only forward",
+    "interests": [
+      "build",
+      "identity",
+      "security",
+      "defi",
+      "governance",
+      "legal"
+    ],
+    "tracks": [
+      "root",
+      "referendum_killer",
+      "referendum_canceller",
+      "general_admin",
+      "whitelisted_caller"
+    ],
+    "website": "https://teletype.in/@lesnik13utsa",
+    "forum": "lesnik_utsa"
+  },
+  {
     "address": "0x195ff37fc18ac6c8e0db763c402a9c641b092364",
     "name": "Anomalia",
     "description": "Moonbeam is one of the most influential networks in the blockchain community, offering customized services to users. We can talk endlessly about the advantage and competitiveness of the project. As an ambassador, I am not only interested in the technology, which Moonbeam has in abundance, but also in the community, which is growing day by day. I am confident in the strength of our team, we will achieve great success in the crypto industry",
@@ -437,68 +501,5 @@
     ],
     "website": "https://link3.to/extezymr",
     "ensName": "extezymr.eth"
-  },
-  {
-    "address": "0xa7476ec14cd663c742d527113638c77a1631cc89",
-    "name": "lesnik | UTSA",
-    "description": "Hey hey I'm | a senior ambassador for Moonbeam If you have been familiar with Moonbeam Moonriver for a long time, then most likely we have already met. Constant help to the community, technical articles and boundless faith in decentralization - only forward",
-    "interests": [
-      "build",
-      "identity",
-      "security",
-      "defi",
-      "governance",
-      "legal"
-    ],
-    "tracks": [
-      "root",
-      "referendum_killer",
-      "referendum_canceller",
-      "general_admin",
-      "whitelisted_caller"
-    ],
-    "website": "https://teletype.in/@lesnik13utsa",
-    "forum": "lesnik_utsa"
-  },
-  {
-    "address": "0x609d12eaddfd805de8e7b75d124c950f073dde27",
-    "name": "w124eth aka Benzi",
-    "description": "Hi all I'm w124eth aka Benzi I am Moonbeam senior ambassador Since the begining with Moonbeam and Moonriver I help our community from day one I love to create a graphic content and not only it Maybe you may have seen my stickers Feel free dm me on Telegram - w124eth",
-    "interests": [
-      "build",
-      "defi",
-      "governance",
-      "nft",
-      "security",
-      "grants"
-    ],
-    "tracks": [
-      "root",
-      "referendum_killer",
-      "referendum_canceller",
-      "general_admin",
-      "whitelisted_caller"
-    ],
-    "website": "https://twitter.com/numberswetrust",
-    "forum": "w124eth"
-  },
-  {
-    "address": "0x7ce57049de6d970a96e7e2e0b895207634243212",
-    "name": "TonyMoon",
-    "description": "I have been a Moonbeam Ambassador since the beginning, I have tested both Moonbeam and Moonriver parachain networks. I am a Guild Leader in SubQuery and an Ambassador in Manta Network",
-    "interests": [
-      "build",
-      "defi",
-      "nft",
-      "identity"
-    ],
-    "tracks": [
-      "root",
-      "general_admin",
-      "whitelisted_caller"
-    ],
-    "website": "https://twitter.com/MaestroIt8",
-    "ensName": "tonymoon.eth",
-    "forum": "tonymoon"
   }
 ]
