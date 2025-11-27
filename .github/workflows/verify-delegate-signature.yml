@@ -1,4 +1,4 @@
-name: Verify Delegate Signature
+name: verify-delegate-signature
 
 on:
   issue_comment:
