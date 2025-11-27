@@ -6,6 +6,7 @@ on:
 
 jobs:
   verify-signature:
+    # TEST
     if: >-
       github.event.issue.pull_request != null &&
       contains(toJson(github.event.comment), '"tag":"register_delegate"')
