@@ -2,7 +2,7 @@ name: Verify Delegate Signature
 
 on:
   issue_comment:
-    types: [created]
+    types: [created, edited]
 
 jobs:
   verify-signature:
