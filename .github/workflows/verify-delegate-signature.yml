@@ -1,6 +1,9 @@
 name: verify-delegate-signature
 
 on:
+  pull_request:
+    branches:
+      - main
   issue_comment:
     types: [created, edited]
 
@@ -25,4 +28,3 @@ jobs:
 
       - name: Verify delegate signature from PR comment
         run: npx tsx scripts/verify-signature.ts '${{ github.event.comment.body }}'
-
