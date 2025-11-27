@@ -1,65 +1,76 @@
 import { keccak256, recoverMessageAddress, stringToBytes } from 'viem';
 
-function fail(msg: string): never {
-  console.error('Signature verification FAILED:', msg);
-  process.exit(1);
-}
-
-function ok(msg: string): never {
-  console.log('Signature verification PASSED:', msg);
-  process.exit(0);
-}
 
 function parseComment(comment: string): any {
   try {
     return JSON.parse(comment);
   } catch (e) {
-    throw new Error(`Invalid JSON in comment: ${(e as Error).message}`);
+    throw new Error('Invalid comment payload.');
   }
 }
 
-async function main(comment: string | undefined) {
+function verifyTag(tag: string): void {
+  if (tag !== 'register_delegate') {
+    throw new Error(`Unexpected tag: ${tag}. Expected "register_delegate".`);
+  }
+}
+
+function verifyComment(comment: string): void {
   if (!comment) {
-    fail(
+    throw new Error(
       'No signature payload provided.'
     );
   }
+}
+
+function verifyPayload(address: string, referenceHash: string, signature: `0x${string}`, message: string): void {
+  if (!address || !referenceHash || !signature || !message) {
+    throw new Error(
+      'Missing one of required fields: address, referenceHash, signature, message.'
+    );
+  }
+}
+
+function verifyReferenceHash(referenceHash: string, message: string): void {
+  if (keccak256(stringToBytes(message)).toLowerCase() !== referenceHash.toLowerCase()) {
+    throw new Error(
+      'Reference hash mismatch.'
+    );
+  }
+}
+
+async function verifyAddress(address: string, signature: `0x${string}`, message: string): Promise<void> {
+  const recovered = await recoverMessageAddress({ message, signature });
+
+  if (recovered.toLowerCase() !== address.toLowerCase()) {
+    throw new Error(
+      'Address does not match expected.'
+    );
+  }
+}
+
+async function main(comment: string) {
+  verifyComment(comment);
 
   const payload = parseComment(comment);
 
   const { tag, address, referenceHash, signature, message } = payload ?? {};
 
-  if (tag !== 'register_delegate') {
-    fail(`Unexpected tag: ${tag}. Expected "register_delegate".`);
-  }
+  verifyTag(tag);
 
-  if (!address || !referenceHash || !signature || !message) {
-    fail(
-      'Missing one of required fields: address, referenceHash, signature, message.'
-    );
-  }
+  verifyPayload(address, referenceHash, signature, message);
 
-  if (keccak256(stringToBytes(message)).toLowerCase() !== referenceHash.toLowerCase()) {
-    fail(
-      'Reference hash mismatch.'
-    );
-  }
+  verifyReferenceHash(referenceHash, message);
 
-  const recovered = await recoverMessageAddress({ message, signature });
+  await verifyAddress(address, signature, message);
 
-  if (recovered.toLowerCase() !== address.toLowerCase()) {
-    fail(
-      'Address does not match expected'
-    );
-  }
-
-  ok(`Delegate payload and signature are valid for address ${address}.`);
+  console.log(`Delegate payload and signature are valid for address ${address}.`);
 }
 
-const [, , cliComment] = process.argv;
+const [, , comment] = process.argv;
 
-main(cliComment).catch((err) => {
-  fail((err as Error).message);
+main(comment).catch((err) => {
+  throw new Error((err as Error).message);
 });
 
 
