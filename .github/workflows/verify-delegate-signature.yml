@@ -1,17 +1,23 @@
 name: verify-delegate-signature
 
 on:
-  pull_request:
-    branches:
-      - main
   issue_comment:
     types: [created, edited]
+  workflow_dispatch:
+    inputs:
+      payload:
+        description: 'Comment body / payload to verify'
+        required: true
+        type: string
 
 jobs:
   verify-delegate-signature:
     if: >-
-      github.event.issue.pull_request != null &&
-      contains(github.event.comment.body, '"tag": "register_delegate"')
+      (github.event_name == 'issue_comment' &&
+       github.event.issue.pull_request != null &&
+       contains(github.event.comment.body, '"tag": "register_delegate"')) ||
+      (github.event_name == 'workflow_dispatch')
+
     runs-on: ubuntu-latest
 
     steps:
@@ -26,5 +32,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Verify delegate signature from PR comment
-        run: npx tsx scripts/verify-signature.ts '${{ github.event.comment.body }}'
+      - name: Verify delegate signature
+        run: npx tsx scripts/verify-signature.ts '${{ github.event_name == 'workflow_dispatch' && github.event.inputs.payload || github.event.comment.body }}'
