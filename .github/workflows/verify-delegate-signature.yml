@@ -7,7 +7,9 @@ on:
 
 jobs:
   verify-signature:
-    if: 'github.event.issue.pull_request != null && contains(github.event.comment.body, "\"tag\": \"register_delegate\"")'
+    if: >-
+      github.event.issue.pull_request != null &&
+      contains(github.event.comment.body, '"tag": "register_delegate"')
     runs-on: ubuntu-latest
 
     steps:
