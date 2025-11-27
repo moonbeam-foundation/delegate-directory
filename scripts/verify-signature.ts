@@ -71,3 +71,4 @@ const [, , comment] = process.argv;
 main(comment).catch((err) => {
   throw new Error((err as Error).message);
 });
+
