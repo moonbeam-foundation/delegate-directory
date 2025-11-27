@@ -59,6 +59,6 @@ You can verify a delegate signature locally using Bun:
 # Install dependencies
 bun install
 
-# Verify a delegate signature
-COMMENT_BODY="$(cat payload.json)" bunx tsx scripts/verify-signature.ts
+# Verify a delegate signature (local testing) using a CLI argument
+bunx tsx scripts/verify-signature.ts "$(cat payload.json)"
 ```

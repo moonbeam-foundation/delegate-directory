@@ -1,4 +1,4 @@
-import { keccak256, toUtf8Bytes, verifyMessage } from 'ethers';
+import { keccak256, recoverMessageAddress, stringToBytes } from 'viem';
 
 function fail(msg: string): never {
   console.error('Signature verification FAILED:', msg);
@@ -10,22 +10,22 @@ function ok(msg: string): never {
   process.exit(0);
 }
 
-async function main() {
-  const comment = process.env.COMMENT_BODY?.toString();
+function parseComment(comment: string): any {
+  try {
+    return JSON.parse(comment);
+  } catch (e) {
+    throw new Error(`Invalid JSON in comment: ${(e as Error).message}`);
+  }
+}
 
+async function main(comment: string | undefined) {
   if (!comment) {
     fail(
       'No signature payload provided.'
     );
   }
 
-  let payload: any;
-
-  try {
-    payload = JSON.parse(comment);
-  } catch (e) {
-    fail(`Invalid JSON in comment: ${e.message}`);
-  }
+  const payload = parseComment(comment);
 
   const { tag, address, referenceHash, signature, message } = payload ?? {};
 
@@ -39,13 +39,13 @@ async function main() {
     );
   }
 
-  if (keccak256(toUtf8Bytes(message)).toLowerCase() !== referenceHash.toLowerCase()) {
+  if (keccak256(stringToBytes(message)).toLowerCase() !== referenceHash.toLowerCase()) {
     fail(
       'Reference hash mismatch.'
     );
   }
 
-  const recovered = verifyMessage(message, signature);
+  const recovered = await recoverMessageAddress({ message, signature });
 
   if (recovered.toLowerCase() !== address.toLowerCase()) {
     fail(
@@ -56,7 +56,9 @@ async function main() {
   ok(`Delegate payload and signature are valid for address ${address}.`);
 }
 
-main().catch((err) => {
+const [, , cliComment] = process.argv;
+
+main(cliComment).catch((err) => {
   fail((err as Error).message);
 });
 
