@@ -1,6 +1,5 @@
 import { keccak256, recoverMessageAddress, stringToBytes } from 'viem';
 
-
 function parseComment(comment: string): any {
   try {
     return JSON.parse(comment);
