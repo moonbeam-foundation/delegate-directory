@@ -50,3 +50,15 @@ bun install
 # Validate all delegate files
 bun scripts/validate.ts
 ```
+
+## Verify Delegate Signature
+
+You can verify a delegate signature locally using Bun:
+
+```bash
+# Install dependencies
+bun install
+
+# Verify a delegate signature (local testing) using a CLI argument
+bunx tsx scripts/verify-signature.ts "$(cat payload.json)"
+```

@@ -1,0 +1,27 @@
+name: verify-delegate-signature
+
+on:
+  issue_comment:
+    types: [created, edited]
+
+jobs:
+  verify-signature:
+    if: >-
+      github.event.issue.pull_request != null &&
+      contains(toJson(github.event.comment), '"tag":"register_delegate"')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Verify delegate signature from PR comment
+        run: npx tsx scripts/verify-signature.ts "${{ github.event.comment.body }}"
