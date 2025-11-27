@@ -5,10 +5,10 @@ on:
     types: [created, edited]
 
 jobs:
-  verify-signature:
-    # if: >-
-    #   github.event.issue.pull_request != null &&
-    #   contains(toJson(github.event.comment), '"tag":"register_delegate"')
+  verify-delegate-signature:
+    if: >-
+      github.event.issue.pull_request != null &&
+      contains(toJson(github.event.comment), '"tag": "register_delegate"')
     runs-on: ubuntu-latest
 
     steps:
