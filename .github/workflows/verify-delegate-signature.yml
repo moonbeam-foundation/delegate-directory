@@ -25,3 +25,4 @@ jobs:
 
       - name: Verify delegate signature from PR comment
         run: npx tsx scripts/verify-signature.ts ${{ github.event.comment.body }}
+
