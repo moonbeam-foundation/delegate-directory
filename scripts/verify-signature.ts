@@ -2,6 +2,8 @@ import { keccak256, recoverMessageAddress, stringToBytes } from 'viem';
 
 function parseComment(comment: string): any {
   try {
+    // TODO: Remove
+    console.log(comment);
     return JSON.parse(comment);
   } catch (e) {
     throw new Error('Invalid comment payload.');
