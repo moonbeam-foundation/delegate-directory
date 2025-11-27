@@ -3,13 +3,12 @@ name: verify-delegate-signature
 on:
   issue_comment:
     types: [created, edited]
-  workflow_dispatch:
 
 jobs:
   verify-signature:
     if: >-
       github.event.issue.pull_request != null &&
-      contains(github.event.comment.body, '"tag": "register_delegate"')
+      contains(toJson(github.event.comment), '"tag":"register_delegate"')
     runs-on: ubuntu-latest
 
     steps:
