@@ -53,13 +53,13 @@ async function main(comment: string) {
 
   const payload = parseComment(comment);
 
-  const { tag, address, referenceHash, signature, message } = payload ?? {};
+  const { tag, address, signatureHash, signature, message } = payload ?? {};
 
   verifyTag(tag);
 
-  verifyPayload(address, referenceHash, signature, message);
+  verifyPayload(address, signatureHash, signature, message);
 
-  verifyReferenceHash(referenceHash, message);
+  verifyReferenceHash(signatureHash, message);
 
   await verifyAddress(address, signature, message);
 
