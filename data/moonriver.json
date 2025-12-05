@@ -384,3 +384,26 @@
     "forum": "lordglmr"
   }
 ]
+{
+  "address": "0x9258FbcDDF8174c5b13264297fc8379D00d04115",
+  "name": "Jordan",
+  "description": "Hi, Im Jordan. Ive been active in Web3 for several years, with a focus on running infra, trading, building blockchain tracabilityanalytics tooling, and decentralized finance. I joined the Moonbeam Governance Guild to support the Moonriver network through thoughtful participation and transparent communication. Im here to contribute to proposals that strengthen the network and reflect the long-term interests of the community. Always open to feedback and discussion Please reach out to me on discord Frenofafren or TG jordanagrippa",
+  "interests": [
+    "defi",
+    "identity",
+    "governance",
+    "legal",
+    "security",
+    "nft",
+    "grants",
+    "build"
+  ],
+  "tracks": [
+    "root",
+    "whitelisted_caller",
+    "general_admin",
+    "fast_general_admin",
+    "referendum_killer",
+    "referendum_canceller"
+  ]
+}
