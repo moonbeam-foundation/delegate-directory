@@ -382,22 +382,23 @@
     ],
     "website": "https://www.tfalpha.xyz/",
     "forum": "lordglmr"
+  },
+  {
+    "address": "0xB969639e3Cbf1e5a1d753efb2be09De4f34001f7",
+    "name": "Michele Iceberg",
+    "description": "I am Michele CMO at Iceberg Nodes supporting all teammates on staking topics on both Telegram and Discord. I serve as Moonbeam Moonriver Treasury council member and as community admin of the Moonbeam Unofficial Telegram group. I have followed Gavin Wood research and development since 2017. I believe Moonbeam can act as the engine of Polkadot interoperability and as the main access hub to onboard innovation driven projects from the EVM world. I am strongly interested in what is best for Moonbeam and Moonriver with a focus on future challenges and opportunities such as strategic expansion to ETH. I trust my judgment and my constant contact with the community to make the right decisions especially on governance topics. You can always find me on Telegram or Discord ready to support all Moonbeam and Moonriver teammates.",
+    "interests": [
+      "governance",
+      "grants"
+    ],
+    "tracks": [
+      "general_admin",
+      "whitelisted_caller",
+      "root",
+      "fast_general_admin"
+    ],
+    "twitter": "Michele_Iceberg",
+    "forum": "Michele_Amurri",
+    "discussionThread": "https://forum.moonbeam.network/t/treasury-council-member-candidacy-january-december-2026-michele-iceberg/2361/8"
   }
-]{
-  "address": "0xB969639e3Cbf1e5a1d753efb2be09De4f34001f7",
-  "name": "Michele Iceberg",
-  "description": "I am Michele CMO at Iceberg Nodes supporting all teammates on staking topics on both Telegram and Discord. I serve as Moonbeam Moonriver Treasury council member and as community admin of the Moonbeam Unofficial Telegram group. I have followed Gavin Wood research and development since 2017. I believe Moonbeam can act as the engine of Polkadot interoperability and as the main access hub to onboard innovation driven projects from the EVM world. I am strongly interested in what is best for Moonbeam and Moonriver with a focus on future challenges and opportunities such as strategic expansion to ETH. I trust my judgment and my constant contact with the community to make the right decisions especially on governance topics. You can always find me on Telegram or Discord ready to support all Moonbeam and Moonriver teammates.",
-  "interests": [
-    "governance",
-    "grants"
-  ],
-  "tracks": [
-    "general_admin",
-    "whitelisted_caller",
-    "root",
-    "fast_general_admin"
-  ],
-  "twitter": "Michele_Iceberg",
-  "forum": "Michele_Amurri",
-  "discussionThread": "https://forum.moonbeam.network/t/treasury-council-member-candidacy-january-december-2026-michele-iceberg/2361/8"
-}
+]
