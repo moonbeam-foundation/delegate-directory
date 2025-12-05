@@ -401,25 +401,26 @@
     "forum": "Michele_Amurri",
     "discussionThread": "https://forum.moonbeam.network/t/treasury-council-member-candidacy-january-december-2026-michele-iceberg/2361/8"
   },
-  "address": "0x6e31B30b8fd37A47941907686b80b46d2D747BbD",
-  "name": "Rafael | LegendNodes",
-  "description": "I'm Rafael - Moonbeam and Moonriver collator since the early days. I'm Also a Moonbeam grant committee member in the last 3 cohorts, and UnitedBloc DAO member which provides RPC service to the RiverBeam ecosystem\n\nMy node activity is entirely focused on the DOTSAMA ecosystem. Besides the RiverBeam, I'm also operating multiple validators on Polkadot and Kusama networks.\n\nI hold PhD. in economics and was a quant developer for nearly 10 years before I fully shifted to node operation. I'm a true believer in the RiverBeam ecosystem and also significant investor",
-  "interests": [
-    "defi",
-    "governance",
-    "grants",
-    "nft"
-  ],
-  "tracks": [
-    "whitelisted_caller",
-    "root",
-    "general_admin",
-    "fast_general_admin",
-    "referendum_killer",
-    "referendum_canceller"
-  ],
-  "twitter": "@legendnodes",
-  "website": "https://www.legendnodes.com/",
-  "forum": "legendnodes"
+  {
+    "address": "0x6e31B30b8fd37A47941907686b80b46d2D747BbD",
+    "name": "Rafael | LegendNodes",
+    "description": "I'm Rafael - Moonbeam and Moonriver collator since the early days. I'm Also a Moonbeam grant committee member in the last 3 cohorts, and UnitedBloc DAO member which provides RPC service to the RiverBeam ecosystem\n\nMy node activity is entirely focused on the DOTSAMA ecosystem. Besides the RiverBeam, I'm also operating multiple validators on Polkadot and Kusama networks.\n\nI hold PhD. in economics and was a quant developer for nearly 10 years before I fully shifted to node operation. I'm a true believer in the RiverBeam ecosystem and also significant investor",
+    "interests": [
+      "defi",
+      "governance",
+      "grants",
+      "nft"
+    ],
+    "tracks": [
+      "whitelisted_caller",
+      "root",
+      "general_admin",
+      "fast_general_admin",
+      "referendum_killer",
+      "referendum_canceller"
+    ],
+    "twitter": "@legendnodes",
+    "website": "https://www.legendnodes.com/",
+    "forum": "legendnodes"
 }
 ]
