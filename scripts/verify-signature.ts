@@ -49,10 +49,6 @@ async function verifyAddress(address: string, signature: `0x${string}`, message:
 }
 
 async function main(comment: string) {
-  console.log('\x1b[34m████████████████████▓▓▒▒░ verify-signature.ts:52 ░▒▒▓▓████████████████████\x1b[0m');
-  console.log('* comment = ');
-  console.log(comment);
-  console.log('\x1b[34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\x1b[0m');
   verifyComment(comment);
 
   const payload = parseComment(comment);
