@@ -1,7 +1,4 @@
 name: verify-delegate-signature
-permissions:
-  contents: read
-  pull-requests: read
 
 on:
   issue_comment:
@@ -15,6 +12,9 @@ on:
 
 jobs:
   verify-delegate-signature:
+    permissions:
+      contents: read
+      pull-requests: read
     if: >-
       (github.event_name == 'issue_comment' &&
        github.event.issue.pull_request != null &&
