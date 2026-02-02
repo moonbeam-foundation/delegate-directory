@@ -6,12 +6,15 @@ on:
   workflow_dispatch:
     inputs:
       payload:
-        description: 'Comment body / payload to verify'
+        description: "Comment body / payload to verify"
         required: true
         type: string
 
 jobs:
   verify-delegate-signature:
+    permissions:
+      contents: read
+      pull-requests: read
     if: >-
       (github.event_name == 'issue_comment' &&
        github.event.issue.pull_request != null &&
@@ -33,4 +36,7 @@ jobs:
         run: npm install
 
       - name: Verify delegate signature
-        run: npx tsx scripts/verify-signature.ts '${{ github.event_name == 'workflow_dispatch' && github.event.inputs.payload || github.event.comment.body }}'
+        env:
+          PAYLOAD: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.payload || github.event.comment.body }}
+        run: |
+          npx tsx scripts/verify-signature.ts "$PAYLOAD"
