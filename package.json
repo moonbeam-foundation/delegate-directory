@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "glob": "^11.0.3",
-    "zod": "^4.0.15",
-    "viem": "^2.21.57"
+    "glob": "^13.0.1",
+    "zod": "^4.3.6",
+    "viem": "^2.45.2"
   },
   "devDependencies": {
-    "tsx": "^4.19.2"
+    "tsx": "^4.21.0"
   },
-  "packageManager": "pnpm@10.23.0+sha512.21c4e5698002ade97e4efe8b8b4a89a8de3c85a37919f957e7a0f30f38fbc5bbdd05980ffe29179b2fb6e6e691242e098d945d1601772cad0fef5fb6411e2a4b"
+  "packageManager": "pnpm@10.29.2"
 }
