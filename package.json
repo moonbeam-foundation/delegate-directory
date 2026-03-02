@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "glob": "^13.0.1",
+    "glob": "^13.0.6",
     "zod": "^4.3.6",
-    "viem": "^2.45.2"
+    "viem": "^2.46.3"
   },
   "devDependencies": {
     "tsx": "^4.21.0"
